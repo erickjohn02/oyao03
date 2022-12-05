@@ -1,0 +1,106 @@
+.b1
+{
+		background-color: #FFF9D1 ;
+		font-family: Georgia;	
+}
+#nav-bar
+{
+    padding: 1% 2%;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar
+{
+	padding: 0 !important;
+}
+.navbar-brand img
+{
+	
+	height: 40px;
+	padding-left: 20px;
+}
+#navbar-nav lin
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	color: #1A1B1C !important;
+	font-weight: 650;
+	float: right;
+	text-align: left;
+	letter-spacing: 0.5px;
+}
+.nav-item a:hover 
+{
+        background-color: #EB984E ;
+        color: #ffffff;
+        border-radius: 5px;
+}
+/*----------------------------------------------Carousel section-------------------------------------------------------*/
+/* .carousel-item{
+    height: 200px;
+	background-size: auto;
+}
+.carousel-item img{
+	width: 50%;
+	background-size: auto;
+} */
+
+/*----------------------------------------------Recipe section-------------------------------------------------------*/
+.items{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 30px 20px;
+	grid-column-gap: 20px;
+	grid-row-gap: 30px;
+}
+.item img{
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+.item img:hover{
+	transform: scale(1.04);
+}
+.item h3{
+	padding: 5px;
+	text-align: center;
+}
+.item button{
+	padding: 5px 30px;
+	border: none;
+	outline: none;
+	background-color:#EB984E;
+	cursor: pointer;
+	border-radius: 4px;
+	font-size: 20px;
+	display: block;
+	margin: 0 auto;
+	transition: 0.2s all;
+}
+.item a{
+	color: white;
+}
+.item button:hover{
+	transform: scale(1.04);
+}
+@media screen and (max-width: 1000px) {
+	.items{
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media screen and (max-width: 768px) {
+	.items{
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+
+
+
+
+
